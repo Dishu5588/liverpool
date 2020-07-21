@@ -1,12 +1,11 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int main()
 {
-	float p,l,b;
-	printf("/n enter the length:");
-	scanf("%f",&l);
-	printf("/n enter the breath:");
-	scanf("%f",&b);
+	int l,b,p;
+	cout<<" enter lenght and breath ";
+	cin>>l>>b;
 	p=2*(l+b);
-	printf("the perimeter of rect is %f",p);
+	cout<<" perimeter of rectangle is "<<p;
 	return 0;
 }

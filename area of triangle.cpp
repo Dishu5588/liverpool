@@ -1,16 +1,12 @@
-#include<stdio.h>
-void calculate_area(float *,float*);
+#include<iostream>
+using namespace std;
 int main()
 {
 	float b,h;
-	printf("\n enter base and height:");
-	scanf("%f %f",&b,&h);
-	calculate_area(&b,&h);
-	return 0;
-}
-void calculate_area(float*x,float*y)
-{
 	float a;
-	a=0.5*(*x)*(*y);
-	printf("\n area of triangle is %f",a);
+	cout<<" enter base and height:";
+	cin>>b>>h;
+	a=0.5*(b*h);
+	cout<<" area of triangle is "<<a;
+	return 0;
 }
